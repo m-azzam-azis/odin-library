@@ -1,0 +1,42 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+legend {
+  width: 100%;
+}
+
+form {
+  margin: 24px 0px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  max-width: 480px;
+
+  background-color: antiquewhite;
+  padding: 10px 24px;
+  border-radius: 16px;
+}
+
+form > p {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+table {
+  width: 100%;
+  border: 1px black solid;
+}
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+tr,
+th,
+td {
+  padding: 4px;
+  text-align: center;
+}

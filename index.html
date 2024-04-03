@@ -4,11 +4,44 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Odin Library</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+  <h1>Odin Library</h1>
 
+  <form>
+    <legend>
+      <h3>Add New Book</h3>
+    </legend>
+    <p>
+      <label for="title">Book Title</label>
+      <input required id="title" type="text">
+    </p>
+
+    <p>
+      <label for="author">Author Name</label>
+      <input required id="author" type="text">
+    </p>
+
+    <p>
+      <label for="pages">No of Pages</label>
+      <input required id="pages" type="number" min="0">
+    </p>
+
+    <button type="submit" id="submit-form">Submit New Book</button>
+  </form>
+  <table id="table-container">
+    <tr>
+      <th style="width: 30%">Title</th>
+      <th style="width: 20%">Author</th>
+      <th style="width: 17.5%">Pages</th>
+      <th style="width: 15%">Status</th>
+      <th style="width: 17.5%">Delete Book</th>
+    </tr>
+  </table>
+  <script src="app.js"></script>
 </body>
 
 </html>
